@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>525</width>
+    <height>460</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QFormLayout" name="formLayout"/>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>525</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Maximum" vsizetype="Minimum">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <widget class="QMenu" name="menuInicio">
+    <property name="title">
+     <string>Inicio</string>
+    </property>
+    <addaction name="actionTela_Inicial"/>
+    <addaction name="actionNova_Janela"/>
+    <addaction name="actionNovo_Form"/>
+    <addaction name="actionAdd_Produto"/>
+   </widget>
+   <addaction name="menuInicio"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionNova_Janela">
+   <property name="text">
+    <string>Nova Janela</string>
+   </property>
+  </action>
+  <action name="actionNovo_Form">
+   <property name="text">
+    <string>Novo Form</string>
+   </property>
+  </action>
+  <action name="actionTela_Inicial">
+   <property name="text">
+    <string>Tela Inicial</string>
+   </property>
+  </action>
+  <action name="actionAdd_Produto">
+   <property name="text">
+    <string>Add Produto</string>
+   </property>
+  </action>
+  <action name="actionCadastro">
+   <property name="text">
+    <string>Cadastro</string>
+   </property>
+  </action>
+  <action name="actionEdi_o">
+   <property name="text">
+    <string>Edição</string>
+   </property>
+  </action>
+  <action name="actionTipo_de_Produto">
+   <property name="text">
+    <string>Tipo de Produto</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
